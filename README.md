@@ -65,6 +65,15 @@ found [here](https://github.com/objectbox/objectbox-c) (e.g. just extract the la
 
 The releases need to be extracted locally and then executed.
 
+### AUR ###
+
+On Arch Linux (and relatives) osintDB (`osintdb-git`) can be installed through the AUR and your favorite AUR helper (e.g. `paru`).
+As of now there is no `wails` package in the AUR so it has to be installed manually beforehand.
+
+```sh
+paru -S osintdb-git
+```
+
 ## License ##
 
 The project was released under the terms and conditions of the MIT License.
