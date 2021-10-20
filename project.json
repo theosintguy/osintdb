@@ -1,0 +1,26 @@
+{
+ "name": "osintDB",
+ "description": "An OSINT ressource collection manager",
+ "license": "MIT",
+ "author": {
+  "name": "theosintguy",
+  "email": "theosintguy@mailbox.org"
+ },
+ "version": "0.1.0",
+ "binaryname": "osintdb",
+ "frontend": {
+  "dir": "frontend",
+  "install": "npm install",
+  "build": "npm run build",
+  "bridge": "src",
+  "serve": "npm run serve"
+ },
+ "tags": "osint",
+ "WailsVersion": "1.16.7",
+ "CrossCompile": false,
+ "Platform": "",
+ "Architecture": "",
+ "LdFlags": "",
+ "GoPath": "",
+ "UseFirebug": false
+}

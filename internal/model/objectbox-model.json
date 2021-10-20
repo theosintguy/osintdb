@@ -1,0 +1,75 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3979277378798837263",
+      "lastPropertyId": "10:5050549190669747951",
+      "name": "Resource",
+      "properties": [
+        {
+          "id": "1:310324367271568826",
+          "name": "ID",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8746423320512736329",
+          "name": "Title",
+          "type": 9
+        },
+        {
+          "id": "3:7535355438529720560",
+          "name": "ResourceType",
+          "type": 6
+        },
+        {
+          "id": "4:3072999814435305093",
+          "name": "Description",
+          "type": 9
+        },
+        {
+          "id": "5:4022568439416524261",
+          "name": "Regions",
+          "type": 30
+        },
+        {
+          "id": "6:5767748824699061826",
+          "name": "Comment",
+          "type": 9
+        },
+        {
+          "id": "7:9212575716174209430",
+          "name": "URL",
+          "type": 9
+        },
+        {
+          "id": "8:2140856262330507356",
+          "name": "Tags",
+          "type": 30
+        },
+        {
+          "id": "9:6438982053546495694",
+          "name": "License",
+          "type": 30
+        },
+        {
+          "id": "10:5050549190669747951",
+          "name": "Browser",
+          "type": 30
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "1:3979277378798837263",
+  "lastIndexId": "",
+  "lastRelationId": "",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
