@@ -67,12 +67,18 @@ The releases need to be extracted locally and then executed.
 
 ### AUR ###
 
-On Arch Linux (and relatives) osintDB (`osintdb-git`) can be installed through the AUR and your favorite AUR helper (e.g. `paru`).
-Currently, there is no `wails` package in the AUR so it has to be installed manually beforehand.
+On Arch Linux (and relatives) osintDB can be installed through the AUR and your favorite AUR helper (e.g. `paru`).
+
+Available AUR packages:
+
+- `osintdb-git` (build from `main` branch sources)
+- `osintdb-bin` (pre-built version)
 
 ```sh
-paru -S osintdb-git
+paru -S osintdb-bin
 ```
+Note: Currently, there is no `wails` package in the AUR so it has to be installed manually before installing with `osintdb-git`.
+This does not affect `osintdb-bin` (no need for `wails` then).
 
 ## License ##
 
